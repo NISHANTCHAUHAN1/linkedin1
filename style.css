@@ -34,8 +34,8 @@ a{
 .home{
     background-image: url(home.jpg);
     background-size: cover;
-    height: 40px;
-    width: 20%;
+    height: 25px;
+    width: 25px;
 }
 
 .navbar-right{
