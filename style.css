@@ -25,10 +25,14 @@ a{
     height: 100px;
     width: 100%;
 }
-
-.navbar-center{
+ 
+.navbar-center ul li a {
     height: 40px;
     width: 20%;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 5px; 
+
 }
 
 .home{
@@ -44,7 +48,7 @@ a{
 .nav-profile-img{
     height: 300px;
     width: 80%;
-    
+    margin-bottom: 136px;
 
 }
 
@@ -61,3 +65,15 @@ a{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }  
 
+.navbar-center ul li a{
+    display: inline-block;
+    list-style: none;
+}
+.navbar-center ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 5px;
+
+}
