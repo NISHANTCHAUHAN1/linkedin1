@@ -43,5 +43,21 @@ a{
 }
 .nav-profile-img{
     height: 300px;
-    width: 40%;
+    width: 80%;
+    
+
 }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    height: 400px;
+    padding: 6px 6%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}  
+
